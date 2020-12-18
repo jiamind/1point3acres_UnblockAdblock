@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "1point3acres_UnblockAdblock",
+    "version": "0.1.0",
+    "description": "Unblock Adblock on 1point3acres",
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://www.1point3acres.com/bbs/*"
+            ]
+        }
+    ]
+}
