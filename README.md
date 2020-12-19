@@ -12,7 +12,7 @@ A chrome extension that automatically removes the Adblock warning message on 1Po
 
 ## Behind the scene
 
-Once 1Point3Acres bbs page loads, this extension looks for the pop-up and blocked elements every 100 ms. Then it removes the pop-up and unblocks the webpage.
+Once 1Point3Acres bbs page loads, this extension looks for the pop-up and blocked elements every 10 ms. Then it removes the pop-up and unblocks the webpage.
 
 Retrieving the DOM elements is a low-cost operation, and the blocking elements usually show up within seconds. Most likely you will still see those elements before they quickly disappear.
 
