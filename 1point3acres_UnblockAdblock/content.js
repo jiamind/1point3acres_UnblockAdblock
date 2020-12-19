@@ -33,24 +33,24 @@ function removeStyleOnElement(element, propertyName) {
 }
 
 window.onload = () => {
-    // Check every 100ms until element with style 'fc-ab-root' is removed.
+    // Check every 10ms until element with style 'fc-ab-root' is removed.
     var abExists = setInterval(() => {
         if (removeElementsByClassName('fc-ab-root')) {
             clearInterval(abExists);
         }
-    }, 100);
+    }, 10);
 
-    // Check every 100ms until element with style 'c-whitelist-root' is removed.
+    // Check every 10ms until element with style 'c-whitelist-root' is removed.
     var fcExists = setInterval(() => {
         if (removeElementsByClassName('fc-whitelist-root')) {
             clearInterval(fcExists);
         }
-    }, 100);
+    }, 10);
 
-    // Check every 100ms until 'overflow' property on the document body style is removed.
+    // Check every 10ms until 'overflow' property on the document body style is removed.
     var bsExists = setInterval(() => {
         if (removeStyleOnElement(document.body, 'overflow')) {
             clearInterval(bsExists);
         }
-    }, 100);
+    }, 10);
 }
