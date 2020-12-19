@@ -2,7 +2,7 @@
 
 A chrome extension that automatically removes the Adblock warning message on 1Point3Acres website.
 
-![](https://lh3.googleusercontent.com/9YD55wpc0_SnHDLEl8Xuhhg3XN-BAdr-i9dRRictHr3QrSKo5kKvFpkH4QHEpVdAyI1Qx8dQNZRByCwJ8aPO=w3360-h1896-rw)
+![](./images/1point3acres_adblock_screenshot.png)
 
 ## Installing
 
